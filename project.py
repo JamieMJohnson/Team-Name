@@ -10,3 +10,5 @@ data = pd.read_csv("all_data.csv")
 
 #Scatterplot
 sns.scatterplot(data["Life expectancy at birth (years)"], housing_sub["GDP"], alpha = 0.2)
+
+plt.plot(data["Life expectancy at birth (years)"], data["GDP"])
