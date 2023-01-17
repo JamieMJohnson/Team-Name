@@ -5,4 +5,5 @@ import statsmodels
 import matplotlib.pyplot as plt
 import math
 
-data = pd.read_csv("")
+#Import the data
+data = pd.read_csv("all_data.csv")
