@@ -10,6 +10,10 @@ data = pd.read_csv("all_data.csv")
 
 #Scatterplot
 sns.scatterplot(data["Life expectancy at birth (years)"], data["GDP"])
+
+#Find a line of best fit using regplot
+sns.regplot(x="GDP", y="Life expectancy at birth (years)", data=data, order=5)
+
 plt.show()
 plt.clf()
 
